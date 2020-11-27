@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('checkout') {
           steps {
-            git(url: 'https://github.com/tianhongqi/two.git', branch: 'main', changelog: true)
+            git(url: 'https://github.com/tianhongqi/two.git', branch: 'master', changelog: true)
           }
         }
 
